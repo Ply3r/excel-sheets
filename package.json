@@ -1,0 +1,27 @@
+{
+  "name": "exel-sheets",
+  "version": "1.0.0",
+  "description": "Some fuctions to manipulate Exel Sheets.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ply3r/excel-sheets.git"
+  },
+  "keywords": [
+    "exel",
+    "sheets",
+    "xlsx"
+  ],
+  "author": "Leandro Henrique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ply3r/excel-sheets/issues"
+  },
+  "homepage": "https://github.com/Ply3r/excel-sheets#readme",
+  "dependencies": {
+    "xlsx": "^0.18.0"
+  }
+}
