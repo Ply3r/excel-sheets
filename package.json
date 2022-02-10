@@ -1,6 +1,6 @@
 {
   "name": "exel-sheets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Some fuctions to manipulate Exel Sheets.",
   "main": "index.js",
   "scripts": {
