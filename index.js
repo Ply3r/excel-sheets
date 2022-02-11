@@ -19,7 +19,12 @@ const filterByColumn = (key, column, space) => {
 
 const getByColumnAndInterval = (Sheet, column, interval = [0, Infinity]) => {
   if (typeof Sheet !== 'object') throw new Error('Invalid Sheet! should be an Object');
-  if (typeof column !== 'string') throw new Error('Invalid column! should be an String');
+  if (typeof column !== 'string') throw new Error('Invalid column! should be a String');
+  if (typeof interval !== 'object') throw new Error('Invalid interval! should be an array');
+  if (interval.length !== 2) throw new Error('Invalid interval! should be an array with 2 numbers');
+  interval.forEach((value) => {
+    if (typeof value !== "number") throw new Error('Invalid interval! should be an array with 2 numbers')
+  })
 
   const data = Object.entries(Sheet)
     .filter(([key]) => filterByColumn(key, column, interval))
