@@ -1,7 +1,7 @@
 {
-  "name": "exel-sheets",
+  "name": "excel-sheets",
   "version": "1.0.1",
-  "description": "Some fuctions to manipulate Exel Sheets.",
+  "description": "Some functions to manipulate Excel Sheets.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,9 +11,10 @@
     "url": "git+https://github.com/Ply3r/excel-sheets.git"
   },
   "keywords": [
-    "exel",
+    "excel",
     "sheets",
-    "xlsx"
+    "xlsx",
+    "javaScript"
   ],
   "author": "Leandro Henrique",
   "license": "ISC",
